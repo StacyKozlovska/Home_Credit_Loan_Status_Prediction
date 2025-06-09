@@ -1,0 +1,9 @@
+runtime: custom
+env: flex
+
+handlers:
+- url: /.*
+  script: auto
+
+manual_scaling:
+  instances: 2
